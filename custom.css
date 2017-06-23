@@ -1,0 +1,212 @@
+/* --------  CSS for ALL Pages -------- */
+
+body {
+	background-color: #F7f7f7;
+
+}
+
+footer {
+	opacity: 0.5;
+}
+
+.navbar {
+background-color: 0C0C0C;
+} 
+
+.navbar a{
+	color: #c4b581;
+	font-weight: bold;
+	font-size: 15px;
+
+
+}
+
+.navbar form{
+	margin-top: 13px;
+}
+
+/* --------  CSS for HomePage -------- */
+.jumbotron {
+	background-image: url("cityofsac3.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	height: 500px;
+	background-size: 100% 100%;
+	padding-bottom: 40px;
+	padding-top: 100px;
+	margin-bottom: 60px;
+}
+
+.jumbotron h1{
+	color: #f7f7f7;
+	font-weight: bold;
+	padding-top: 18px;
+	text-align:center;
+}
+
+.jumbotron h2{
+	color: #f7f7f7;
+	padding-bottom: 15px;
+	
+}
+
+
+.homepagerow {
+	color: #000;
+	margin-bottom: 60px;
+
+}
+
+.btn-xl {
+    padding: 70px;
+    font-size: 40px;
+    border-radius: 10px;
+    font-family: arial black;
+    color: #DFDFDF;
+    box-shadow: 10px 10px 23px -5px rgba(0,0,0,0.55);
+    background: #006dcc;
+    opacity: .9;
+}
+
+
+/* --------  CSS for Log in Page -------- */
+.loginContainer {
+	padding-top: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.form-signin-heading {
+	color: #474747;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	font-family: arial black;
+
+}
+
+.checkbox label {
+	color: #474747;
+}
+
+.form-signin {
+	padding: 25px 15px 30px 15px;
+	border: 2px solid #FFF;
+	background-color: #FFF;
+	box-shadow: 10px 10px 23px -5px rgba(0,0,0,0.55);
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.form-signin button{
+	margin-bottom: 15px;
+}
+.form-signin a{
+	color: #474747;
+}
+
+
+.form-signin input{
+	margin-bottom: 15px;
+}
+
+.form-signup button{
+	margin-top: 15px;
+}
+
+.form-signup a {
+	opacity: 0.8;
+}
+
+.retrievalheader {
+	color: #474747;;
+	padding-bottom: 5px;
+	font-family: arial black;
+
+}
+
+
+        
+
+/*----- CSS FOR SEARCH RESULTS PAGE ------- */
+
+@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+
+.resultscontainer { margin-top: 85px; }
+.mb20 { margin-bottom: 20px; } 
+
+hgroup { padding-left: 15px; border-bottom: 1px solid #ccc; }
+hgroup h1 { font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin-top: 0; line-height: 1.15; }
+hgroup h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin: 0; padding-bottom: 10px; }
+
+.search-result .thumbnail { border-radius: 0 !important; }
+.search-result:first-child { margin-top: 0 !important; }
+.search-result { margin-top: 20px; }
+.search-result .col-md-2 { border-right: 1px dotted #ccc; min-height: 140px; }
+.search-result ul { padding-left: 0 !important; list-style: none;  }
+.search-result ul li { font: 400 normal .85em "Roboto",Arial,Verdana,sans-serif;  line-height: 30px; }
+.search-result ul li i { padding-right: 5px; }
+.search-result .col-md-7 { position: relative; }
+.search-result h3 { font: 500 normal 1.375em "Roboto",Arial,Verdana,sans-serif; margin-top: 0 !important; margin-bottom: 10px !important; }
+.search-result h3 > a, .search-result i { color: #248dc1 !important; }
+.search-result p { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; } 
+.search-result span.plus { position: absolute; right: 0; top: 126px; }
+.search-result span.plus a { background-color: #248dc1; padding: 5px 5px 3px 5px; }
+.search-result span.plus a:hover { background-color: #414141; }
+.search-result span.plus a i { color: #fff !important; }
+.search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
+
+/*-----CSS FOR DASHBOARD ----------- */
+.dashboardcontainer{
+	margin-top: 75px;
+}
+
+.dashpanel{
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 10px;
+}
+
+.summary{
+	margin-top: 18px;
+}
+
+.all {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 1px;
+}
+
+.studentFileUpload{
+	width: 164px;
+}
+
+.editProfile{
+	width: 164px;
+	height: 40px;
+	margin-top: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.studentEditProfile{
+	width: 40px;
+}
+
+
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
